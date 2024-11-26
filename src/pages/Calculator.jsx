@@ -33,10 +33,10 @@ function Calculator() {
   };
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
       <h1 className="text-4xl text-white mb-8">Calculator</h1>
       <div className="flex ">
-            <div className="bg-black text-white rounded-lg w-64 p-4 text-right text-xl mb-4 w-40">
+            <div className="bg-black text-white rounded-lg w-40 p-4 text-right text-xl mb-4 ">
                 {display || "0"}
             </div>
             <button
