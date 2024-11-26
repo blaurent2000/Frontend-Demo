@@ -12,10 +12,10 @@ import Calculator from './pages/Calculator';
 function App() {
   const [taskList, setTaskList] = useState([]);
   return (
-    <div className="body-background h-screen flex items-center justify-center">
+    <div className="body-background h-screen flex flex-col">
       <BrowserRouter>
         <Menu />
-        <div className='fixed top-50'>
+        <div className='flex-grow flex justify-center items-center py-20'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />

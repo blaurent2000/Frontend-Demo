@@ -47,10 +47,10 @@ function ToDoList(props) {
 				Add Task
 				</button>
 			</div>
-			<div className="overflow-y-auto h-1/2 w-full">
+			<div className="overflow-y-auto h-96 w-full">
 			{props.taskList &&
 				props.taskList.map((task, index) => (
-				<li key={index} className="text-white flex overflow-x-hidden flex-row my-2 justify-between gap-2">
+				<li key={index} className="text-white flex overflow-x-hidden  flex-row my-2 justify-between gap-2">
 					<input
 					type="checkbox"
 					className="hover:bg-pink-800 ease-out duration-300"
