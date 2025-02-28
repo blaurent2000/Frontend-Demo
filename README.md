@@ -15,7 +15,9 @@ This project is a demonstration of various interactive features built with React
    npm install
 
 3. Start the project:
+'''
    npm run dev
+'''
 
 ### Technologies used:
 - React
