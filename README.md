@@ -8,7 +8,7 @@ This project is a demonstration of various interactive features built with React
 
 ### Installation:
 1. Clone the repository:
-   git clone [REPO_URL]
+   git clone https://github.com/blaurent2000/Frontend-Demo.git
    cd frontend-demo
 
 2. Install dependencies:
