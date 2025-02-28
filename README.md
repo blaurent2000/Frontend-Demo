@@ -22,9 +22,10 @@ This project is a demonstration of various interactive features built with React
    npm run dev
 ```
 
-### Technologies used:
+### I used:
 - React
 - Tailwind CSS
+- Material UI
 
 ### Usage:
 - The calculator allows basic arithmetic operations.
