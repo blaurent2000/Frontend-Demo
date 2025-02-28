@@ -1,12 +1,12 @@
-### Frontend Demo
+## Frontend Demo
 
-## Description:
+### Description:
 This project is a demonstration of various interactive features built with React. It includes:
 - A calculator
 - A to-do list
 - A data analyzer that displays a graph
 
-## Installation:
+### Installation:
 1. Clone the repository:
    git clone [REPO_URL]
    cd frontend-demo
@@ -17,11 +17,11 @@ This project is a demonstration of various interactive features built with React
 3. Start the project:
    npm run dev
 
-## Technologies used:
+### Technologies used:
 - React
 - Tailwind CSS
 
-## Usage:
+### Usage:
 - The calculator allows basic arithmetic operations.
 - The to-do list lets you add, edit, and delete tasks.
 - The data analyzer displays a graph based on the provided data. You can modify them in '''src/assets/data/equipment_data.js'''.
