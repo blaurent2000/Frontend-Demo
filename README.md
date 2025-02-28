@@ -1,8 +1,33 @@
-# React + Vite
+## Frontend Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description:
+This project is a demonstration of various interactive features built with React. It includes:
+- A calculator
+- A to-do list
+- A data analyzer that displays a graph
 
-Currently, two official plugins are available:
+### Installation:
+1. Clone the repository:
+```
+   git clone https://github.com/blaurent2000/Frontend-Demo.git
+   cd frontend-demo
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Install dependencies:
+```
+   npm install
+```
+3. Start the project:
+```
+   npm run dev
+```
+
+### Technologies used:
+- React
+- Tailwind CSS
+
+### Usage:
+- The calculator allows basic arithmetic operations.
+- The to-do list lets you add, edit, and delete tasks.
+- The data analyzer displays a graph based on the provided data. You can modify them in ```src/assets/data/equipment_data.js```.
+- More will come soon
